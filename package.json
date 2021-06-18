@@ -1,0 +1,54 @@
+{
+  "name": "Satanica-BOT",
+  "version": "9.9.9",
+  "description": "No comment",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Zitstaa",
+    "whatsapp",
+    "bot",
+    "whatsapp",
+    "bot"
+  ],
+  "author": "Satanica",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.4.1",
+    "async": "^3.2.0",
+    "awesome-phonenumber": "^2.49.0",
+    "axios": "^0.21.1",
+    "cfonts": "^2.9.0",
+    "escape-string-regexp": "^4.0.0",
+    "fake-useragent": "^1.0.1",
+    "ffmpeg": "0.0.4",
+    "file-type": "^16.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "image-to-base64": "^2.2.0",
+    "imgbb-uploader": "^1.3.0",
+    "lolis.life": "^4.0.0",
+    "moment-timezone": "^0.5.32",
+    "multistream": "^4.0.1",
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "remove.bg": "^1.3.0",
+    "request": "^2.88.2",
+    "spinnies": "^0.5.1",
+    "tiktok-scraper": "^1.4.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zitsraaaxyz/self-wabot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zitsraaaxyz/self-wabot/issues"
+  },
+  "homepage": "https://github.com/Zitsraaaxyz/self-wabot#readme"
+}
