@@ -143,370 +143,112 @@ ${a}❏ABOUT BOT${a}
  ${a}│ handphone : ${client.user.phone.device_manufacturer}${a}
  ${a}╰ versi wa : ${client.user.phone.wa_version}${a}
  
-${a}❏ABOUT GROUP${a}
- ${a}│ Name group : ${groupMetadata.subject}${a}
- ${a}│ admin group : ${isGroupAdmins}${a}
- ${a}│ owner group : wa.me/${groupMetadata.owner.split("@")}${a}
- ${a}│ total member : ${groupMetadata.participants.length}${a}
- ${a}│ total admin : ${groupAdmins.length}${a}
- ${a}│ welcome : ${isWelkom}${a}
- ${a}│ antibadword : ${isBadWord}${a}
- ${a}│ leveling : ${isLevelingOn}${a}
- ${a}╰ antilink : ${isAntiLink}${a}
- 
- 
- ${a}「total pengunaan command」${a}
- *${pepolu} used*
+ㅤ𝐇𝐈𝚵͢𝐙𝐈.𝐁𝐎𝐓..𝐌𝐀𝐗
+・✦▭▭▭✧◦✦◦✧▭▭▭✦
 
- *${prefix}info*
- *${prefix}donasi*
- *${prefix}owner*
-
-${a}❏MAKER MENU${a}
- ${a}│•${prefix}sticker${a}
- ${a}│•${prefix}quotemaker${a}
- ${a}│•${prefix}qrcode${a}
- ${a}│•${prefix}nulis${a}
- ${a}│•${prefix}text3d${a}
- ${a}│•${prefix}tahta${a}
- ${a}╰•${prefix}ttp${a}
- 
-${a}❏FUN MENU${a}
- ${a}│•${prefix}lirik${a}
- ${a}│•${prefix}artinama${a}
- ${a}│•${prefix}chord${a}
- ${a}│•${prefix}bisakah${a}
- ${a}│•${prefix}readmore${a}
- ${a}│•${prefix}kapankah${a}
- ${a}│•${prefix}apakah${a}
- ${a}│•${prefix}rate${a}
- ${a}│•${prefix}tebakgambar${a}
- ${a}│•${prefix}meme${a}
- ${a}│•${prefix}textlight${a}
- ${a}│•${prefix}glitchtext${a}
- ${a}│•${prefix}slap${a}
- ${a}│•${prefix}emoji${a}
- ${a}│•${prefix}animequotes${a}
- ${a}│•${prefix}katacinta${a}
- ${a}│•${prefix}neonime${a}
- ${a}│•${prefix}stickerhide${a} ~[error]~
- ${a}│•${prefix}tampar${a}
- ${a}│•${prefix}quotes${a}
- ${a}│•${prefix}moddroid${a} 
- ${a}│•${prefix}apkpure${a}
- ${a}╰•${prefix}happymod${a} 
- 
-${a}❏MUTUAL${a}
- ${a}│•${prefix}mutual${a}
- ${a}╰•${prefix}next${a}
- 
-${a}❏MEDIA MENU${a}
- ${a}│•${prefix}brainly${a}
- ${a}│•${prefix}pinterest${a}
- ${a}│•${prefix}resepmasakan${a}
- ${a}│•${prefix}igstalk${a}
- ${a}│•${prefix}beritahoax${a}
- ${a}│•${prefix}tiktok${a}
- ${a}│•${prefix}infonomor${a}
- ${a}│•${prefix}fototiktok${a}
- ${a}│•${prefix}bitly${a}
- ${a}│•${prefix}tiktokstalk${a}
- ${a}│•${prefix}ssweb${a}
- ${a}╰•${prefix}kbbi${a}
- 
-${a}❏SONG${a}
- ${a}│•${prefix}ytmp3${a}
- ${a}│•${prefix}ytmp4${a}
- ${a}╰•${prefix}joox${a}
- 
-${a}❏NSFW${a}
- ${a}│•${prefix}anjing${a}
- ${a}│•${prefix}blowjob${a}
- ${a}│•${prefix}nekonime${a}
- ${a}│•${prefix}pokemon${a}
- ${a}│•${prefix}husbu${a}
- ${a}│•${prefix}nangis${a}
- ${a}│•${prefix}cium${a}
- ${a}│•${prefix}peluk${a}
- ${a}╰•${prefix}ranime${a}
- 
-${a}❏LIMIT & UANG${a}
- ${a}│•${prefix}limit${a}
- ${a}│•${prefix}buylimit${a}
- ${a}│•${prefix}transfer${a}
- ${a}│•${prefix}dompet${a}
- ${a}│•${prefix}giftlimit${a}
- ${a}╰•${prefix}leaderboard${a}
- 
-${a}❏GROUP MENU${a}
- ${a}│•${prefix}delete${a}
- ${a}│•${prefix}hidetag${a}
- ${a}│•${prefix}blocklist${a}
- ${a}│•${prefix}grouplist${a}
- ${a}│•${prefix}level${a}
- ${a}│•${prefix}linkgc${a}
- ${a}│•${prefix}tagall${a}
- ${a}│•${prefix}setpp${a}
- ${a}│•${prefix}add${a}
- ${a}│•${prefix}kick${a}
- ${a}│•${prefix}setname${a}
- ${a}│•${prefix}setdesc${a}
- ${a}│•${prefix}demote${a}
- ${a}│•${prefix}promote${a}
- ${a}│•${prefix}listadmin${a}
- ${a}│•${prefix}group [buka/tutup]${a}
- ${a}│•${prefix}leveling [enable/disable]${a}
- ${a}│•${prefix}nsfw [1/0]${a}
- ${a}│•${prefix}simih [1/0]${a}
- ${a}│•${prefix}welcome [1/0]${a}
- ${a}│•${prefix}antilink [1/0]${a}
- ${a}│•${prefix}join${a}
- ${a}╰•${prefix}nobadword [enable/disable]${a}
- 
-${a}❏TOOLS${a}
- ${a}│•${prefix}bass${a}
- ${a}│•${prefix}tomp3${a}
- ${a}│•${prefix}slowmo${a}
- ${a}│•${prefix}gemok${a}
- ${a}│•${prefix}wasted${a}
- ${a}│•${prefix}tourl${a}
- ${a}│•${prefix}triggered${a}
- ${a}│•${prefix}wanted${a}
- ${a}│•${prefix}facebookpage${a}
- ${a}│•${prefix}gtav${a}
- ${a}│•${prefix}costumwp${a}
- ${a}│•${prefix}pantaimalam${a}
- ${a}│•${prefix}crossgun${a}
- ${a}│•${prefix}bakar${a}
- ${a}│•${prefix}pencil${a}
- ${a}╰•${prefix}tupai${a}
- 
-${a}❏CLOUD STORAGE${a}
- ${a}│•${prefix}addsticker${a}
- ${a}│•${prefix}getsticker${a}
- ${a}│•${prefix}stickerlist${a}
- ${a}│•${prefix}addvideo${a}
- ${a}│•${prefix}getvideo${a}
- ${a}│•${prefix}videolist${a}
- ${a}│•${prefix}getimage${a}
- ${a}│•${prefix}addImage${a}
- ${a}│•${prefix}imagelist${a}
- ${a}│•${prefix}addaudio${a}
- ${a}│•${prefix}getaudio${a}
- ${a}╰•${prefix}audiolist${a}
- 
-${a}❏OWNER MENU${a}
- ${a}│•${prefix}bc${a}
- ${a}│•${prefix}addbadword${a}
- ${a}│•${prefix}delbadword${a}
- ${a}│•${prefix}bcgc${a}
- ${a}│•${prefix}kickall${a}
- ${a}│•${prefix}setreply${a}
- ${a}│•${prefix}setprefix${a}
- ${a}│•${prefix}clearall${a}
- ${a}│•${prefix}block${a}
- ${a}│•${prefix}unblock${a}
- ${a}│•${prefix}leave${a}
- ${a}│•${prefix}event [1/0]${a}
- ${a}│•${prefix}clone${a}
- ${a}╰•${prefix}setppbot${a}
-
-${a}❏THANGKS TO${a}
- ${a}│${a}
- ${a}│ • AFFIS JUNIANTO <dev>${a}
- ${a}│ • FADHIL GRAPHY <partner>${a}
- ${a}│ • TERMOS BOT MEKER <team>${a}
- ${a}│ • MYBOT TEAM <team>${a}
- ${a}│${a}
- ${a}╰ • NOTE : jangan ngemis${a}
-`
-} else if (!isGroup) {
-    return `
-${a}❏ ABOUT USER${a}
- ${a}│ Nama : ${pushname}${a}
- ${a}│ Nomer : wa.me/${sender.split("@")[0]}${a}
- ${a}│ Uang mu : Rp${uangku},-${a}
- ${a}│ XP : ${getLevelingXp(sender)}/${reqXp} ${a}
- ${a}│ Level : ${getLevelingLevel(sender)}${a}
- ${a}│ Role : ${role}${a}
- ${a}╰ User register : ${_registered.length}${a}
- 
-${a}❏ABOUT BOT${a}
- ${a}│ • Name : ${client.user.name}${a}
- ${a}│ • browser : ${client.browserDescription[1]}${a}
- ${a}│ • server : ${client.browserDescription[0]}${a}
- ${a}│ • version : ${client.browserDescription[2]}${a}
- ${a}│ • speed : ${process.uptime()}${a}
- ${a}│ • handphone : ${client.user.phone.device_manufacturer}${a}
- ${a}╰ • versi wa : ${client.user.phone.wa_version}${a}
- 
- ${a}「total pengunaan command」${a}
- *${pepolu} used*
-
- *${prefix}info*
- *${prefix}donasi*
- *${prefix}owner*
-
-${a}❏MAKER MENU${a}
- ${a}│•${prefix}sticker${a}
- ${a}│•${prefix}quotemaker${a}
- ${a}│•${prefix}qrcode${a}
- ${a}│•${prefix}nulis${a}
- ${a}│•${prefix}text3d${a}
- ${a}│•${prefix}tahta${a}
- ${a}╰•${prefix}ttp${a}
- 
-${a}❏FUN MENU${a}
- ${a}│•${prefix}lirik${a}
- ${a}│•${prefix}artinama${a}
- ${a}│•${prefix}chord${a}
- ${a}│•${prefix}bisakah${a}
- ${a}│•${prefix}readmore${a}
- ${a}│•${prefix}kapankah${a}
- ${a}│•${prefix}apakah${a}
- ${a}│•${prefix}rate${a}
- ${a}│•${prefix}tebakgambar${a}
- ${a}│•${prefix}meme${a}
- ${a}│•${prefix}textlight${a}
- ${a}│•${prefix}glitchtext${a}
- ${a}│•${prefix}slap${a}
- ${a}│•${prefix}emoji${a}
- ${a}│•${prefix}animequotes${a}
- ${a}│•${prefix}katacinta${a}
- ${a}│•${prefix}neonime${a}
- ${a}│•${prefix}stickerhide${a} ~[error]~
- ${a}│•${prefix}tampar${a}
- ${a}│•${prefix}quotes${a}
- ${a}│•${prefix}moddroid${a} 
- ${a}│•${prefix}apkpure${a}
- ${a}╰•${prefix}happymod${a} 
- 
-${a}❏MUTUAL${a}
- ${a}│•${prefix}mutual${a}
- ${a}╰•${prefix}next${a}
- 
-${a}❏MEDIA MENU${a}
- ${a}│•${prefix}brainly${a}
- ${a}│•${prefix}pinterest${a}
- ${a}│•${prefix}resepmasakan${a}
- ${a}│•${prefix}igstalk${a}
- ${a}│•${prefix}beritahoax${a}
- ${a}│•${prefix}tiktok${a}
- ${a}│•${prefix}infonomor${a}
- ${a}│•${prefix}fototiktok${a}
- ${a}│•${prefix}bitly${a}
- ${a}│•${prefix}tiktokstalk${a}
- ${a}│•${prefix}ssweb${a}
- ${a}╰•${prefix}kbbi${a}
- 
-${a}❏SONG${a}
- ${a}│•${prefix}ytmp3${a}
- ${a}│•${prefix}ytmp4${a}
- ${a}╰•${prefix}joox${a}
- 
-${a}❏NSFW${a}
- ${a}│•${prefix}anjing${a}
- ${a}│•${prefix}blowjob${a}
- ${a}│•${prefix}nekonime${a}
- ${a}│•${prefix}pokemon${a}
- ${a}│•${prefix}husbu${a}
- ${a}│•${prefix}nangis${a}
- ${a}│•${prefix}cium${a}
- ${a}│•${prefix}peluk${a}
- ${a}╰•${prefix}ranime${a}
- 
-${a}❏LIMIT & UANG${a}
- ${a}│•${prefix}limit${a}
- ${a}│•${prefix}buylimit${a}
- ${a}│•${prefix}transfer${a}
- ${a}│•${prefix}dompet${a}
- ${a}│•${prefix}giftlimit${a}
- ${a}╰•${prefix}leaderboard${a}
- 
-${a}❏GROUP MENU${a}
- ${a}│•${prefix}delete${a}
- ${a}│•${prefix}hidetag${a}
- ${a}│•${prefix}blocklist${a}
- ${a}│•${prefix}grouplist${a}
- ${a}│•${prefix}level${a}
- ${a}│•${prefix}linkgc${a}
- ${a}│•${prefix}tagall${a}
- ${a}│•${prefix}setpp${a}
- ${a}│•${prefix}add${a}
- ${a}│•${prefix}kick${a}
- ${a}│•${prefix}setname${a}
- ${a}│•${prefix}setdesc${a}
- ${a}│•${prefix}demote${a}
- ${a}│•${prefix}promote${a}
- ${a}│•${prefix}listadmin${a}
- ${a}│•${prefix}group [buka/tutup]${a}
- ${a}│•${prefix}leveling [enable/disable]${a}
- ${a}│•${prefix}nsfw [1/0]${a}
- ${a}│•${prefix}simih [1/0]${a}
- ${a}│•${prefix}welcome [1/0]${a}
- ${a}│•${prefix}antilink [1/0]${a}
- ${a}│•${prefix}join${a}
- ${a}╰•${prefix}nobadword [enable/disable]${a}
- 
-${a}❏TOOLS${a}
- ${a}│•${prefix}bass${a}
- ${a}│•${prefix}tomp3${a}
- ${a}│•${prefix}slowmo${a}
- ${a}│•${prefix}gemok${a}
- ${a}│•${prefix}wasted${a}
- ${a}│•${prefix}tourl${a}
- ${a}│•${prefix}triggered${a}
- ${a}│•${prefix}wanted${a}
- ${a}│•${prefix}facebookpage${a}
- ${a}│•${prefix}gtav${a}
- ${a}│•${prefix}costumwp${a}
- ${a}│•${prefix}pantaimalam${a}
- ${a}│•${prefix}crossgun${a}
- ${a}│•${prefix}bakar${a}
- ${a}│•${prefix}pencil${a}
- ${a}╰•${prefix}tupai${a}
- 
-${a}❏CLOUD STORAGE${a}
- ${a}│•${prefix}addsticker${a}
- ${a}│•${prefix}getsticker${a}
- ${a}│•${prefix}stickerlist${a}
- ${a}│•${prefix}addvideo${a}
- ${a}│•${prefix}getvideo${a}
- ${a}│•${prefix}videolist${a}
- ${a}│•${prefix}getimage${a}
- ${a}│•${prefix}addImage${a}
- ${a}│•${prefix}imagelist${a}
- ${a}│•${prefix}addaudio${a}
- ${a}│•${prefix}getaudio${a}
- ${a}╰•${prefix}audiolist${a}
- 
-${a}❏OWNER MENU${a}
- ${a}│•${prefix}bc${a}
- ${a}│•${prefix}addbadword${a}
- ${a}│•${prefix}delbadword${a}
- ${a}│•${prefix}bcgc${a}
- ${a}│•${prefix}kickall${a}
- ${a}│•${prefix}setreply${a}
- ${a}│•${prefix}setprefix${a}
- ${a}│•${prefix}clearall${a}
- ${a}│•${prefix}block${a}
- ${a}│•${prefix}unblock${a}
- ${a}│•${prefix}leave${a}
- ${a}│•${prefix}event [1/0]${a}
- ${a}│•${prefix}clone${a}
- ${a}╰•${prefix}setppbot${a}
-
-${a}❏THANGKS TO${a}
- ${a}│${a}
- ${a}│ • AFFIS JUNIANTO <dev>${a}
- ${a}│ • FADHIL GRAPHY <partner>${a}
- ${a}│ • MHANKBARBARS <sc ori>${a}
- ${a}│ • MYBOT TEAM <team>${a}
- ${a}│${a}
- ${a}╰ • NOTE : jangan ngemis${a}
-`
-}
-}
+⃣⃝⃘⃕ ҉📲ᩭ𝆄⸙꯭Nombre:𝐇𝐈𝐄𝐙𝐀𝐋.𝐇𝐎𝐏𝐄
+⃣⃝⃘⃕ ҉📲ᩭ𝆄⸙꯭Prefijo:「  」
+⃣⃝⃘⃕ ҉📲ᩭ𝆄⸙꯭Navegador: Chrome
+⃣⃝⃘⃕ ҉📲ᩭ𝆄⸙꯭Servidor: Baileys
+⃣⃝⃘⃕ ҉📲ᩭ𝆄⸙꯭Versión: 2.0
+⃣⃝⃘⃕ ҉📲ᩭ𝆄⸙꯭Creadora: wa.me/7907466806
+・✦▭▭▭✧◦✦◦✧▭▭▭✦・
+━━━━━━━━━━━━━━━━━━
+・✦▭▭▭✧◦✦◦✧▭▭▭✦・
+¡ʜᴏʟᴀ! ʏᴏ sᴏʏ ᴄʜɪᴋᴀ ғᴜᴊɪᴡᴀʀᴀ ʙᴏᴛ, sɪ ᴇs ʀᴀʀᴏ ᴘᴇʀᴏ ¿ʏᴀ ϙᴜᴇ? ᴀᴄᴀ ᴛᴇ ᴅᴇᴊᴏ ᴍɪs ᴄᴏᴍᴀɴᴅᴏs
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ sticker Responde a img
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ rsticker Responde a img
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ stickergif Responde a vid
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ stickerwa Consulta
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ stickerwm Nombre|Autor
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ attp Texto
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ take Nombre|Autor
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ exif Nombre|Autor
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ togif Responde a stickergif
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ tovideo Responde a sticker
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ toimg Responde a sticker
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ self
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ public
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ mute
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ unmute
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ encendido
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ ping
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ term
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ blocklist
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ run
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ chatlist
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ owner
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ join Linkgroup
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ getpic @tag
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ getbio @tag
+❖ ── ✦ ──『✙』── ✦ ── ❖
+        𒀭𖤩 ˖˚ 𖠿 ⁿˢᶠʷ 𖠿˖˚𖤩𒀭      
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ nsfwfeets
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ hentai       
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ blowjob
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ boobs
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ les
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ futanari
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ femdom 
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ oppai
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ nekopoi
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ erokemo
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ nsfwahegao
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ nsfwthighs
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ holoero
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ nsfwboobs
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ nsfwblowjob
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ randomhentai
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ nsfwneko
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ ranklindo
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ rate .(texto)
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ archive
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ unarchiveall
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ readall
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ delthischat
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ shutdown
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ hidetag Text
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ tagall
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ stctag Tag Stc
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ imgtag Tag Img
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ kontag Text
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ kontak 6281xxx Nama
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ setthumb
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ setreply
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ setbodymenu
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ setwelcome
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ setleave
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ setpromote
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ setdemote
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ upswtext
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ upswimg
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ upswvideo
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ welcome 1/0
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ linkgroup
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ group cerrar/abrir
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ add 6281xxx
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ kick @tag
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ promote @tag
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ demote @tagadmin
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ demoteall
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ listadmin
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ online
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ infoall
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ notif
+❖ ── ✦ ──『✙』── ✦ ── ❖
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ play2
+⁃▢ꦿ̤ٔ᪴꧇🌸ᩭ✎̤᪴ ytmp4 Url
+ ── ✦ ──『✙』── ✦ ── ❖
+𝐇𝐈𝐄𝐙𝐀𝐋.𝐇𝐎𝐏𝐄.2.0
+═════✮❁•°♛°•❁✮═════
+🇧 🇴 🇹 🇸
 
 exports.levelup = (pushname, sender, getLevelingXp,  getLevel, getLevelingLevel, role) => {
 	return`
